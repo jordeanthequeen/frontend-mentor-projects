@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QR Code Card</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Outfit', sans-serif;
+      background-color: #D5E1EF;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      background-color: #ffffff;
+      width: 320px;
+      height: 499px;
+      padding: 16px;
+      border-radius: 16px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .qr-container {
+      background-color: #2C7DFA;
+      border-radius: 10px;
+      padding: 10px;
+    }
+
+    .qr-container img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .card h2 {
+      font-size: 22px;
+      font-weight: 700;
+      margin-top: 16px;
+      color: #1F314F;
+      line-height: 120%;
+
+    }
+
+    .card p {
+      font-size: 15px;
+      letter-spacing: .2px;
+      font-weight: 400;
+      margin-bottom: 8px;
+      color: #68778D;
+      padding:  16px;
+      line-height: 140%;
+    }
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <div class="qr-container">
+      <img src="images/image-qr-code.png" alt="QR Code">
+    </div>
+    <h2>Improve your front-end skills by building projects</h2>
+    <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/jordeanthequeen">Jordean</a>.
+  </div>
+
+</body>
+</html>
